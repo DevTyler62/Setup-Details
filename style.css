@@ -1,0 +1,80 @@
+/*====== Base styles =======*/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 1.5rem 0 0 0;
+	font-family: "Lato", sans-serif;
+	background-color: rgb(0, 0, 0);
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+
+p {
+	font-weight: 300;
+	color: white;
+}
+
+/*==== Reuse classes ====*/
+.container {
+	max-width: 500px;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.setup__text {
+	text-align: center;
+}
+
+.placeholder {
+	margin-top: 2rem;
+	background-color: rgb(57, 126, 187);
+	padding: 8rem 8rem;
+}
+
+.product__card {
+	background-color: rgb(71, 71, 71, 76%);
+	border-radius: 12px;
+	margin-top: 2rem;
+	padding: 0.5rem 0.5rem;
+	display: flex;
+	justify-content: space-between;
+	box-shadow: 4px 4px 8px rgb(253, 118, 203, 45%);
+}
+
+.product__image {
+	background-color: aliceblue;
+	margin: 5px 0;
+	padding: 1.5rem 1.5rem;
+}
+
+.product__name {
+	font-size: 18px;
+	margin-top: 1.2rem;
+	color: #fffefd;
+}
+
+.button {
+	padding: 0.5rem 1rem;
+	border-radius: 12px;
+	margin-top: 1rem;
+	margin-right: 1rem;
+	background-color: #ffac30;
+	color: #fffefd;
+	font-weight: 600;
+}
