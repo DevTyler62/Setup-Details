@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
 /*====== Base styles =======*/
 * {
 	box-sizing: border-box;
@@ -30,11 +32,22 @@ p {
 	color: white;
 }
 
-/*==== Reuse classes ====*/
 .container {
 	max-width: 500px;
 	margin-left: 1rem;
 	margin-right: 1rem;
+}
+
+.setup__header {
+	text-align: center;
+	margin-bottom: 4rem;
+	margin-top: 2rem;
+}
+
+.header__tag {
+	font-size: 20px;
+	color: #fffefd;
+	margin-top: 1.5rem;
 }
 
 .setup__text {
@@ -54,6 +67,7 @@ p {
 	padding: 0.5rem 0.5rem;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	box-shadow: 4px 4px 8px rgb(253, 118, 203, 45%);
 }
 
@@ -65,16 +79,18 @@ p {
 
 .product__name {
 	font-size: 18px;
-	margin-top: 1.2rem;
 	color: #fffefd;
 }
 
 .button {
 	padding: 0.5rem 1rem;
 	border-radius: 12px;
-	margin-top: 1rem;
 	margin-right: 1rem;
 	background-color: #ffac30;
 	color: #fffefd;
 	font-weight: 600;
+}
+
+.last {
+	margin-bottom: 2rem;
 }
