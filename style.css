@@ -54,10 +54,14 @@ p {
 	text-align: center;
 }
 
-.placeholder {
-	margin-top: 2rem;
-	background-color: rgb(57, 126, 187);
-	padding: 8rem 8rem;
+.setup__picture {
+	display: flex;
+	justify-content: center;
+	margin-top: 1rem;
+}
+
+.fullsetup__img {
+	width: 100%;
 }
 
 .product__card {
@@ -71,10 +75,9 @@ p {
 	box-shadow: 4px 4px 8px rgb(253, 118, 203, 45%);
 }
 
-.product__image {
-	background-color: aliceblue;
-	margin: 5px 0;
-	padding: 1.5rem 1.5rem;
+.product__img {
+	width: 15%;
+	margin-left: 1rem;
 }
 
 .product__name {
