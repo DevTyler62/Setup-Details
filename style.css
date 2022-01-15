@@ -34,13 +34,13 @@ p {
 
 .container {
 	max-width: 500px;
-	margin-left: 1rem;
-	margin-right: 1rem;
+	margin-left: 1.5rem;
+	margin-right: 1.5rem;
 }
 
 .setup__header {
 	text-align: center;
-	margin-bottom: 4rem;
+	margin-bottom: 3rem;
 	margin-top: 2rem;
 }
 
@@ -51,7 +51,9 @@ p {
 }
 
 .setup__text {
-	text-align: center;
+	text-align: left;
+	font-weight: 500;
+	line-height: 25px;
 }
 
 .setup__picture {
@@ -62,6 +64,11 @@ p {
 
 .fullsetup__img {
 	width: 100%;
+}
+
+.note {
+	text-align: center;
+	margin-top: 1.5rem;
 }
 
 .product__card {
@@ -81,7 +88,7 @@ p {
 }
 
 .product__name {
-	font-size: 18px;
+	font-size: 15px;
 	color: #fffefd;
 }
 
