@@ -32,6 +32,12 @@ p {
 	color: white;
 }
 
+.header__img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
 .container {
 	max-width: 500px;
 	margin-left: 1.5rem;
