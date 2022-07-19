@@ -75,6 +75,7 @@ p {
 .note {
 	text-align: center;
 	margin-top: 1.5rem;
+	font-size: large;
 }
 
 .product__card {
@@ -86,6 +87,10 @@ p {
 	justify-content: space-between;
 	align-items: center;
 	box-shadow: 4px 4px 8px rgb(253, 118, 203, 45%);
+}
+
+.affiliate {
+	background-color: #1a53ad;
 }
 
 .product__img {
